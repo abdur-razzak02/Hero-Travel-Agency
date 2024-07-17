@@ -19,7 +19,7 @@ section {
 .section-title {
   font-size: 40px;
   font-weight: 800;
-  line-height: 50px;
+  line-height: 60px;
   margin-bottom: 20px;
 }
 .section-body {
@@ -196,7 +196,7 @@ select {
 .destination-row1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 30px;  
 }
 .destination-row2 {
   display: grid;
@@ -211,6 +211,18 @@ select {
 .destination-images img {
   width: 100%;
   height: 350px;
+  filter: brightness(.7);
+}
+.image{
+    position: relative;
+}
+.image h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    color: white;
+    transform: translate(-50%, -50%);
 }
 
 /* choose-us-card */
@@ -289,7 +301,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .packege2{
     background-image: url("../Images/deals-discound3.png");
@@ -297,6 +309,10 @@ select {
 }
 .packege3{
     background-image: url("../Images/deals-discound2.png");
+}
+.all-packege-btn {
+    display: flex;
+    justify-content: center;
 }
 .packege-details{
     width: 50%;
@@ -329,3 +345,25 @@ select {
     font-weight: 800;
     width: 170px;
 }
+
+/* simple perfect place to get lost */
+
+.simple-place-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.simple-place-text p,li{
+    margin-bottom: 20px;
+}
+.simple-place-text ul{
+    margin-left: 30px;
+}
+.simple-place-text li{
+    line-height: 28px;
+}
+.simple-place-image img{
+    width: 100%;
+}
+
+/* newsletter section */
