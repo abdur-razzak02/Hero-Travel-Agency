@@ -28,6 +28,12 @@ section {
   line-height: 26px;
   color: rgba(19, 19, 24, 0.7);
 }
+.section-body2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(90, 90, 93);
+  }
 span,
 .secondary-color {
   color: rgb(255, 84, 0);
@@ -263,4 +269,63 @@ select {
     line-height: 26px;
     margin:0 30px 10px 30px;
     color: rgb(90, 90, 93);
+}
+
+/* deals-and-title */
+
+.deals-and-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tour-packege1{
+    background-image: url("../Images/deals-discound1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.packege2{
+    background-image: url("../Images/deals-discound3.png");
+    align-items: flex-start;
+}
+.packege3{
+    background-image: url("../Images/deals-discound2.png");
+}
+.packege-details{
+    width: 50%;
+    height: 389px;
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.8);
+}
+.packege-details h2{  
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(90, 90, 93);
+}
+.packege-details h3{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.packege-details h4{
+    font-size: 22px;
+    font-weight: 800;
+}
+.packege-details button{
+    font-size: 20px;
+    font-weight: 800;
+    width: 170px;
 }
