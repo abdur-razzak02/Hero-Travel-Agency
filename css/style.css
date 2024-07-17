@@ -29,11 +29,11 @@ section {
   color: rgba(19, 19, 24, 0.7);
 }
 .section-body2 {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: rgb(90, 90, 93);
-  }
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(90, 90, 93);
+}
 span,
 .secondary-color {
   color: rgb(255, 84, 0);
@@ -54,13 +54,13 @@ span,
 #header {
   max-width: 1440px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 .logo {
   display: flex;
@@ -196,7 +196,7 @@ select {
 .destination-row1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;  
+  gap: 30px;
 }
 .destination-row2 {
   display: grid;
@@ -211,159 +211,249 @@ select {
 .destination-images img {
   width: 100%;
   height: 350px;
-  filter: brightness(.7);
+  filter: brightness(0.7);
 }
-.image{
-    position: relative;
+.image {
+  position: relative;
 }
-.image h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 40px;
-    color: white;
-    transform: translate(-50%, -50%);
+.image h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: white;
+  transform: translate(-50%, -50%);
 }
 
 /* choose-us-card */
 
-.choose-us-card-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+.choose-us-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
- .choose-us-heading{
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 50px;
- }
-.choose-us-card1{
-    width: 100%;
-    height: 290px;    
-    border-radius: 15px;
-    background: rgba(251, 181, 99, 0.05);
-    border: 1px solid rgba(251, 181, 99, 0.2);
+.choose-us-heading {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
-.choose-us-card2{
-    width: 100%;
-    height: 290px;
-    border-radius: 15px;    
-    background: rgba(41, 206, 246, 0.05);
-    border: 1px solid rgba(41, 206, 246, 0.2);
+.choose-us-card1 {
+  width: 100%;
+  height: 290px;
+  border-radius: 15px;
+  background: rgba(251, 181, 99, 0.05);
+  border: 1px solid rgba(251, 181, 99, 0.2);
 }
-.choose-us-card3{
-    width: 50%;
-    height: 290px;
-    border-radius: 15px; 
-    margin: 0 auto;
-    margin-top: 30px;   
-    background: rgba(233, 68, 68, 0.05);
-    border: 1px solid rgba(233, 68, 68, 0.2);
+.choose-us-card2 {
+  width: 100%;
+  height: 290px;
+  border-radius: 15px;
+  background: rgba(41, 206, 246, 0.05);
+  border: 1px solid rgba(41, 206, 246, 0.2);
 }
-.our-services img{
-    height: 80px;
-    width: 80px;
-    margin: 30px;
+.choose-us-card3 {
+  width: 50%;
+  height: 290px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: rgba(233, 68, 68, 0.05);
+  border: 1px solid rgba(233, 68, 68, 0.2);
 }
-.our-services h2{   
-    font-size: 24px;
-    font-weight: 800;
-    margin:0 0 10px 30px;
-    color: rgb(19, 19, 24);
+.our-services img {
+  height: 80px;
+  width: 80px;
+  margin: 30px;
 }
-.our-services p{     
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin:0 30px 10px 30px;
-    color: rgb(90, 90, 93);
+.our-services h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 10px 30px;
+  color: rgb(19, 19, 24);
+}
+.our-services p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 30px 10px 30px;
+  color: rgb(90, 90, 93);
 }
 
 /* deals-and-title */
 
-.deals-and-title{
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 50px;
+.deals-and-title {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
 }
-.tour-packege1{
-    background-image: url("../Images/deals-discound1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-bottom: 30px;
+.tour-packege1 {
+  background-image: url("../Images/deals-discound1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 30px;
 }
-.packege2{
-    background-image: url("../Images/deals-discound3.png");
-    align-items: flex-start;
+.packege2 {
+  background-image: url("../Images/deals-discound3.png");
+  align-items: flex-start;
 }
-.packege3{
-    background-image: url("../Images/deals-discound2.png");
+.packege3 {
+  background-image: url("../Images/deals-discound2.png");
 }
 .all-packege-btn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.packege-details{
-    width: 50%;
-    height: 389px;
-    padding: 50px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    backdrop-filter: blur(5px);
-    border: 2px solid rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.8);
+.packege-details {
+  width: 50%;
+  height: 389px;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.8);
 }
-.packege-details h2{  
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(90, 90, 93);
+.packege-details h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(90, 90, 93);
 }
-.packege-details h3{
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 30px;
+.packege-details h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
 }
-.packege-details h4{
-    font-size: 22px;
-    font-weight: 800;
+.packege-details h4 {
+  font-size: 22px;
+  font-weight: 800;
 }
-.packege-details button{
-    font-size: 20px;
-    font-weight: 800;
-    width: 170px;
+.packege-details button {
+  font-size: 20px;
+  font-weight: 800;
+  width: 170px;
 }
 
 /* simple perfect place to get lost */
 
-.simple-place-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+.simple-place-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
 }
-.simple-place-text p,li{
-    margin-bottom: 20px;
+.simple-place-text p,
+li {
+  margin-bottom: 20px;
 }
-.simple-place-text ul{
-    margin-left: 30px;
+.simple-place-text ul {
+  margin-left: 30px;
 }
-.simple-place-text li{
-    line-height: 28px;
+.simple-place-text li {
+  line-height: 28px;
 }
-.simple-place-image img{
-    width: 100%;
+.simple-place-image img {
+  width: 100%;
 }
 
 /* newsletter section */
+
+.newsletter-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+.newsletter-input {
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(255, 84, 0);
+}
+.newsletter-input h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(19, 19, 24);
+}
+.newsletter-input p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+}
+.newsletter-input input {
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-input button {
+  padding: 20px;
+}
+.newsletter-image {
+  position: relative;
+}
+.newsletter-image img {
+  width: 100%;
+}
+.newsletter-discount h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.newsletter-discount h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.newsletter-discount {
+  position: absolute;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  right: 10px;
+  bottom: 70px;
+  transform: rotate(-30deg);
+  color: white;
+  background-color: rgb(255, 84, 0);
+}
+
+/* footer */
+#footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-content{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.footer-content h1{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-content p{
+    margin-bottom: 20px;
+}
+.footer-icon{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+}
+.footer-icon a{
+    font-size: 30px;
+    margin: 10px;
+    color: black;
+}
